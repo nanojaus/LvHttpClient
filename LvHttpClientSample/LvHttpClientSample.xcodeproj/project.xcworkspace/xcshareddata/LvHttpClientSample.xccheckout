@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F1585DB-76AF-401C-91D2-A71CA3489C0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LvHttpClientSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>888ADDC2-1625-4E53-B890-3E00362B0A0E</key>
+		<string>ssh://github.com/nanojaus/LvHttpClient.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LvHttpClientSample/LvHttpClientSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>888ADDC2-1625-4E53-B890-3E00362B0A0E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nanojaus/LvHttpClient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>888ADDC2-1625-4E53-B890-3E00362B0A0E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>888ADDC2-1625-4E53-B890-3E00362B0A0E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LvHttpClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

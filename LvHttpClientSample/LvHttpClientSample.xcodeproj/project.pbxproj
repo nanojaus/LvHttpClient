@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B885E1619130CFC0067F969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E1519130CFC0067F969 /* Foundation.framework */; };
+		4B885E1819130CFC0067F969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E1719130CFC0067F969 /* CoreGraphics.framework */; };
+		4B885E1A19130CFC0067F969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E1919130CFC0067F969 /* UIKit.framework */; };
+		4B885E2019130CFC0067F969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B885E1E19130CFC0067F969 /* InfoPlist.strings */; };
+		4B885E2219130CFC0067F969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E2119130CFC0067F969 /* main.m */; };
+		4B885E2619130CFC0067F969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E2519130CFC0067F969 /* AppDelegate.m */; };
+		4B885E2919130CFD0067F969 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B885E2719130CFD0067F969 /* Main_iPhone.storyboard */; };
+		4B885E2C19130CFD0067F969 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B885E2A19130CFD0067F969 /* Main_iPad.storyboard */; };
+		4B885E2F19130CFD0067F969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E2E19130CFD0067F969 /* ViewController.m */; };
+		4B885E3119130CFD0067F969 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B885E3019130CFD0067F969 /* Images.xcassets */; };
+		4B885E3819130CFD0067F969 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E3719130CFD0067F969 /* XCTest.framework */; };
+		4B885E3919130CFD0067F969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E1519130CFC0067F969 /* Foundation.framework */; };
+		4B885E3A19130CFD0067F969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885E1919130CFC0067F969 /* UIKit.framework */; };
+		4B885E4219130CFD0067F969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B885E4019130CFD0067F969 /* InfoPlist.strings */; };
+		4B885E4419130CFD0067F969 /* LvHttpClientSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E4319130CFD0067F969 /* LvHttpClientSampleTests.m */; };
+		4B885E5019130D5B0067F969 /* LvHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E4F19130D5B0067F969 /* LvHttpClient.m */; };
+		4B885E53191324760067F969 /* LvUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885E52191324760067F969 /* LvUrlConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B885E3B19130CFD0067F969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B885E0A19130CFC0067F969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B885E1119130CFC0067F969;
+			remoteInfo = LvHttpClientSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B885E1219130CFC0067F969 /* LvHttpClientSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvHttpClientSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B885E1519130CFC0067F969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B885E1719130CFC0067F969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B885E1919130CFC0067F969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B885E1D19130CFC0067F969 /* LvHttpClientSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LvHttpClientSample-Info.plist"; sourceTree = "<group>"; };
+		4B885E1F19130CFC0067F969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B885E2119130CFC0067F969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B885E2319130CFC0067F969 /* LvHttpClientSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LvHttpClientSample-Prefix.pch"; sourceTree = "<group>"; };
+		4B885E2419130CFC0067F969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B885E2519130CFC0067F969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B885E2819130CFD0067F969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4B885E2B19130CFD0067F969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4B885E2D19130CFD0067F969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B885E2E19130CFD0067F969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B885E3019130CFD0067F969 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B885E3619130CFD0067F969 /* LvHttpClientSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LvHttpClientSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B885E3719130CFD0067F969 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B885E3F19130CFD0067F969 /* LvHttpClientSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LvHttpClientSampleTests-Info.plist"; sourceTree = "<group>"; };
+		4B885E4119130CFD0067F969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B885E4319130CFD0067F969 /* LvHttpClientSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LvHttpClientSampleTests.m; sourceTree = "<group>"; };
+		4B885E4E19130D5B0067F969 /* LvHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvHttpClient.h; sourceTree = "<group>"; };
+		4B885E4F19130D5B0067F969 /* LvHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvHttpClient.m; sourceTree = "<group>"; };
+		4B885E51191324760067F969 /* LvUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvUrlConnection.h; sourceTree = "<group>"; };
+		4B885E52191324760067F969 /* LvUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvUrlConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B885E0F19130CFC0067F969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E1819130CFC0067F969 /* CoreGraphics.framework in Frameworks */,
+				4B885E1A19130CFC0067F969 /* UIKit.framework in Frameworks */,
+				4B885E1619130CFC0067F969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885E3319130CFD0067F969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E3819130CFD0067F969 /* XCTest.framework in Frameworks */,
+				4B885E3A19130CFD0067F969 /* UIKit.framework in Frameworks */,
+				4B885E3919130CFD0067F969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B885E0919130CFC0067F969 = {
+			isa = PBXGroup;
+			children = (
+				4B885E4D19130D3B0067F969 /* LvHttpClient */,
+				4B885E1B19130CFC0067F969 /* LvHttpClientSample */,
+				4B885E3D19130CFD0067F969 /* LvHttpClientSampleTests */,
+				4B885E1419130CFC0067F969 /* Frameworks */,
+				4B885E1319130CFC0067F969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B885E1319130CFC0067F969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E1219130CFC0067F969 /* LvHttpClientSample.app */,
+				4B885E3619130CFD0067F969 /* LvHttpClientSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B885E1419130CFC0067F969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E1519130CFC0067F969 /* Foundation.framework */,
+				4B885E1719130CFC0067F969 /* CoreGraphics.framework */,
+				4B885E1919130CFC0067F969 /* UIKit.framework */,
+				4B885E3719130CFD0067F969 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B885E1B19130CFC0067F969 /* LvHttpClientSample */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E2419130CFC0067F969 /* AppDelegate.h */,
+				4B885E2519130CFC0067F969 /* AppDelegate.m */,
+				4B885E2719130CFD0067F969 /* Main_iPhone.storyboard */,
+				4B885E2A19130CFD0067F969 /* Main_iPad.storyboard */,
+				4B885E2D19130CFD0067F969 /* ViewController.h */,
+				4B885E2E19130CFD0067F969 /* ViewController.m */,
+				4B885E3019130CFD0067F969 /* Images.xcassets */,
+				4B885E1C19130CFC0067F969 /* Supporting Files */,
+			);
+			path = LvHttpClientSample;
+			sourceTree = "<group>";
+		};
+		4B885E1C19130CFC0067F969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E1D19130CFC0067F969 /* LvHttpClientSample-Info.plist */,
+				4B885E1E19130CFC0067F969 /* InfoPlist.strings */,
+				4B885E2119130CFC0067F969 /* main.m */,
+				4B885E2319130CFC0067F969 /* LvHttpClientSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B885E3D19130CFD0067F969 /* LvHttpClientSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E4319130CFD0067F969 /* LvHttpClientSampleTests.m */,
+				4B885E3E19130CFD0067F969 /* Supporting Files */,
+			);
+			path = LvHttpClientSampleTests;
+			sourceTree = "<group>";
+		};
+		4B885E3E19130CFD0067F969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E3F19130CFD0067F969 /* LvHttpClientSampleTests-Info.plist */,
+				4B885E4019130CFD0067F969 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B885E4D19130D3B0067F969 /* LvHttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				4B885E4E19130D5B0067F969 /* LvHttpClient.h */,
+				4B885E4F19130D5B0067F969 /* LvHttpClient.m */,
+				4B885E51191324760067F969 /* LvUrlConnection.h */,
+				4B885E52191324760067F969 /* LvUrlConnection.m */,
+			);
+			name = LvHttpClient;
+			path = ../LvHttpClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B885E1119130CFC0067F969 /* LvHttpClientSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B885E4719130CFD0067F969 /* Build configuration list for PBXNativeTarget "LvHttpClientSample" */;
+			buildPhases = (
+				4B885E0E19130CFC0067F969 /* Sources */,
+				4B885E0F19130CFC0067F969 /* Frameworks */,
+				4B885E1019130CFC0067F969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LvHttpClientSample;
+			productName = LvHttpClientSample;
+			productReference = 4B885E1219130CFC0067F969 /* LvHttpClientSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B885E3519130CFD0067F969 /* LvHttpClientSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B885E4A19130CFD0067F969 /* Build configuration list for PBXNativeTarget "LvHttpClientSampleTests" */;
+			buildPhases = (
+				4B885E3219130CFD0067F969 /* Sources */,
+				4B885E3319130CFD0067F969 /* Frameworks */,
+				4B885E3419130CFD0067F969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B885E3C19130CFD0067F969 /* PBXTargetDependency */,
+			);
+			name = LvHttpClientSampleTests;
+			productName = LvHttpClientSampleTests;
+			productReference = 4B885E3619130CFD0067F969 /* LvHttpClientSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B885E0A19130CFC0067F969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lateral View";
+				TargetAttributes = {
+					4B885E3519130CFD0067F969 = {
+						TestTargetID = 4B885E1119130CFC0067F969;
+					};
+				};
+			};
+			buildConfigurationList = 4B885E0D19130CFC0067F969 /* Build configuration list for PBXProject "LvHttpClientSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B885E0919130CFC0067F969;
+			productRefGroup = 4B885E1319130CFC0067F969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B885E1119130CFC0067F969 /* LvHttpClientSample */,
+				4B885E3519130CFD0067F969 /* LvHttpClientSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B885E1019130CFC0067F969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E2C19130CFD0067F969 /* Main_iPad.storyboard in Resources */,
+				4B885E3119130CFD0067F969 /* Images.xcassets in Resources */,
+				4B885E2919130CFD0067F969 /* Main_iPhone.storyboard in Resources */,
+				4B885E2019130CFC0067F969 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885E3419130CFD0067F969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E4219130CFD0067F969 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B885E0E19130CFC0067F969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E2F19130CFD0067F969 /* ViewController.m in Sources */,
+				4B885E2619130CFC0067F969 /* AppDelegate.m in Sources */,
+				4B885E53191324760067F969 /* LvUrlConnection.m in Sources */,
+				4B885E5019130D5B0067F969 /* LvHttpClient.m in Sources */,
+				4B885E2219130CFC0067F969 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885E3219130CFD0067F969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885E4419130CFD0067F969 /* LvHttpClientSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B885E3C19130CFD0067F969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B885E1119130CFC0067F969 /* LvHttpClientSample */;
+			targetProxy = 4B885E3B19130CFD0067F969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B885E1E19130CFC0067F969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885E1F19130CFC0067F969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B885E2719130CFD0067F969 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885E2819130CFD0067F969 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4B885E2A19130CFD0067F969 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885E2B19130CFD0067F969 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4B885E4019130CFD0067F969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885E4119130CFD0067F969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B885E4519130CFD0067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B885E4619130CFD0067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B885E4819130CFD0067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LvHttpClientSample/LvHttpClientSample-Prefix.pch";
+				INFOPLIST_FILE = "LvHttpClientSample/LvHttpClientSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B885E4919130CFD0067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LvHttpClientSample/LvHttpClientSample-Prefix.pch";
+				INFOPLIST_FILE = "LvHttpClientSample/LvHttpClientSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B885E4B19130CFD0067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LvHttpClientSample.app/LvHttpClientSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LvHttpClientSample/LvHttpClientSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LvHttpClientSampleTests/LvHttpClientSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B885E4C19130CFD0067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LvHttpClientSample.app/LvHttpClientSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LvHttpClientSample/LvHttpClientSample-Prefix.pch";
+				INFOPLIST_FILE = "LvHttpClientSampleTests/LvHttpClientSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B885E0D19130CFC0067F969 /* Build configuration list for PBXProject "LvHttpClientSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885E4519130CFD0067F969 /* Debug */,
+				4B885E4619130CFD0067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B885E4719130CFD0067F969 /* Build configuration list for PBXNativeTarget "LvHttpClientSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885E4819130CFD0067F969 /* Debug */,
+				4B885E4919130CFD0067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B885E4A19130CFD0067F969 /* Build configuration list for PBXNativeTarget "LvHttpClientSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885E4B19130CFD0067F969 /* Debug */,
+				4B885E4C19130CFD0067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B885E0A19130CFC0067F969 /* Project object */;
+}
